@@ -1,3 +1,6 @@
+from functools import lru_cache
+import time
+
 # fib.py
 
 @lru_cache
