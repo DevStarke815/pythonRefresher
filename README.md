@@ -36,6 +36,24 @@ The `fib.py` program calculates the Fibonacci sequence and measures how long eac
 - Uses recursion to calculate the nth Fibonacci number.
 - Measures and displays the time taken for each calculation.
 
+### **Example Output:**
+```sh
+$ python fib.py
+... (1-89)
+Finished in 0.00614910s: f(90) -> 2880067194370816120
+Finished in 0.00620260s: f(91) -> 4660046610375530309
+Finished in 0.00626520s: f(92) -> 7540113804746346429
+Finished in 0.00632040s: f(93) -> 12200160415121876738
+Finished in 0.00637840s: f(94) -> 19740274219868223167
+Finished in 0.00644040s: f(95) -> 31940434634990099905
+Finished in 0.00650300s: f(96) -> 51680708854858323072
+Finished in 0.00657060s: f(97) -> 83621143489848422977
+Finished in 0.00663180s: f(98) -> 135301852344706746049
+Finished in 0.00668800s: f(99) -> 218922995834555169026
+Finished in 0.00673810s: f(100) -> 354224848179261915075
+Plot saved as 'fib_timing_plot.png'
+```
+
 ### **Plot Output:**
 The program creates a plot (`fib_timing_plot.png`) showing how long it took to compute each Fibonacci number.
 
